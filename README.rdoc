@@ -1,0 +1,4 @@
+= minitest-rails-shoulda
+
+Make shoulda-matchers available for minitest-rails.
+
