@@ -4,7 +4,7 @@ require "minitest-rails-shoulda/version"
 
 Gem::Specification.new do |s|
   s.name        = "minitest-rails-shoulda"
-  s.version     = Minitest::Rails::Shoulda::VERSION
+  s.version     = MiniTest::Rails::Shoulda::VERSION
   s.authors     = ["Rafal Wrzochol"]
   s.email       = ["rafal@wrzochol.net"]
   s.homepage    = ""
