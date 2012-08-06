@@ -1,7 +1,7 @@
 if defined? ActionController
   require "shoulda/matchers/action_controller"
 
-  class MiniTest::Rails::Controller
+  class MiniTest::Rails::ActionController::TestCase
     include Shoulda::Matchers::ActionController
     extend Shoulda::Matchers::ActionController
   end
@@ -10,7 +10,7 @@ end
 if defined? ActionMailer
   require "shoulda/matchers/action_mailer"
 
-  class MiniTest::Rails::Mailer
+  class MiniTest::Rails::ActionMailer::TestCase
     include Shoulda::Matchers::ActionMailer
     extend Shoulda::Matchers::ActionMailer
   end
@@ -20,7 +20,7 @@ if defined? ActiveRecord
   require "shoulda/matchers/active_record"
   require "shoulda/matchers/active_model"
 
-  class MiniTest::Rails::Model
+  class MiniTest::Rails::ActiveSupport::TestCase
     include Shoulda::Matchers::ActiveRecord
     extend Shoulda::Matchers::ActiveRecord
     include Shoulda::Matchers::ActiveModel
@@ -29,7 +29,7 @@ if defined? ActiveRecord
 elsif defined? ActiveModel
   require "shoulda/matchers/active_model"
 
-  class MiniTest::Rails::Model
+  class MiniTest::Rails::ActiveSupport::TestCase
     include Shoulda::Matchers::ActiveModel
     extend Shoulda::Matchers::ActiveModel
   end
