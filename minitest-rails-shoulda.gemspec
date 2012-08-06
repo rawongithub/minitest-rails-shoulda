@@ -5,8 +5,8 @@ require "minitest-rails-shoulda/version"
 Gem::Specification.new do |s|
   s.name        = "minitest-rails-shoulda"
   s.version     = MiniTest::Rails::Shoulda::VERSION
-  s.authors     = ["Rafal Wrzochol"]
-  s.email       = ["rafal@wrzochol.net"]
+  s.authors     = ["Robert Bousquet", "Rafal Wrzochol"]
+  s.email       = ["robert@robertbousquet.com", "rafal@wrzochol.net"]
   s.homepage    = ""
   s.summary     = %q{Making shoulda-matchers available for minitest-rails}
   s.description = %q{Making shoulda-matchers available for minitest-rails}
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 #  s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency "minitest-rails"
-  s.add_runtime_dependency "minitest-matchers"
-  s.add_runtime_dependency "shoulda-matchers"
+  s.add_runtime_dependency "minitest-rails",    "~> 0.1.0"
+  s.add_runtime_dependency "minitest-matchers", "~> 1.1.3"
+  s.add_runtime_dependency "shoulda-matchers",  "~> 1.2.0"
 end

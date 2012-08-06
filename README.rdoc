@@ -17,11 +17,13 @@ In Rails 3 and Bundler, add the following to your Gemfile:
 Matchers to test associations:
 
   describe Post do
+    subject { Post.new }
     it { must belong_to(:user) }
     it { must have_many(:tags).through(:taggings) }
   end
 
   describe User do
+    subject { User.new }
     it { must have_many(:posts) }
   end
 
@@ -30,6 +32,7 @@ Matchers to test associations:
 Matchers to test validations and mass assignments:
 
   describe Post do
+    subject { Post.new }
     it { must validate_uniqueness_of(:title) }
     it { must validate_presence_of(:body).with_message(/wtf/) }
     it { must validate_presence_of(:title) }
@@ -37,6 +40,7 @@ Matchers to test validations and mass assignments:
   end
 
   describe User do
+    subject { User.new }
     it { wont allow_value("blah").for(:email) }
     it { must allow_value("a@b.com").for(:email) }
     it { must ensure_inclusion_of(:age).in_range(1..100) }
