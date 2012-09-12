@@ -5,7 +5,9 @@ README.rdoc
 Rakefile
 lib/minitest-rails-shoulda.rb
 lib/minitest/rails/shoulda.rb
+lib/minitest/rails/shoulda/assertions.rb
 lib/minitest/rails/shoulda/matchers.rb
 minitest-rails-shoulda.gemspec
 test/rails_helper.rb
+test/test_assertions.rb
 test/test_matchers.rb
