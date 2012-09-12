@@ -1,3 +1,5 @@
+require "minitest-rails"
+
 module MiniTest
   module Rails
     module Shoulda
