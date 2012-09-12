@@ -1,10 +1,11 @@
 CHANGELOG.rdoc
-Gemfile
 License.txt
 Manifest.txt
 README.rdoc
 Rakefile
 lib/minitest-rails-shoulda.rb
-lib/minitest-rails-shoulda/integrations.rb
-lib/minitest-rails-shoulda/version.rb
+lib/minitest/rails/shoulda.rb
+lib/minitest/rails/shoulda/matchers.rb
 minitest-rails-shoulda.gemspec
+test/rails_helper.rb
+test/test_matchers.rb

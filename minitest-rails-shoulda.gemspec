@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "minitest-rails-shoulda"
-  s.version = "0.1.0.20120911210701"
+  s.version = "0.1.0.20120911213208"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Robert Bousquet", "Rafal Wrzochol", "Mike Moore"]
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = "Extenstion supporting the Shoulda DSL and Matchers in Rails tests using MiniTest"
   s.email = ["robert@robertbousquet.com", "rafal@wrzochol.net", "mike@blowmage.com"]
   s.extra_rdoc_files = ["CHANGELOG.rdoc", "License.txt", "Manifest.txt", "README.rdoc"]
-  s.files = ["CHANGELOG.rdoc", "Gemfile", "License.txt", "Manifest.txt", "README.rdoc", "Rakefile", "lib/minitest-rails-shoulda.rb", "lib/minitest-rails-shoulda/integrations.rb", "lib/minitest-rails-shoulda/version.rb", "minitest-rails-shoulda.gemspec", "test/test_matchers.rb", ".gemtest"]
+  s.files = ["CHANGELOG.rdoc", "License.txt", "Manifest.txt", "README.rdoc", "Rakefile", "lib/minitest-rails-shoulda.rb", "lib/minitest/rails/shoulda.rb", "lib/minitest/rails/shoulda/matchers.rb", "minitest-rails-shoulda.gemspec", "test/rails_helper.rb", "test/test_matchers.rb", ".gemtest"]
   s.homepage = "https://github.com/bousquet/minitest-rails-shoulda"
   s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib"]
