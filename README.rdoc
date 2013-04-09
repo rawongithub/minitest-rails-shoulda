@@ -1,3 +1,3 @@
-=== NOTE:
+=== WE'VE MOVED:
 
-This repository is no longer maintained. Please use https://github.com/bousquet/minitest-rails-shoulda
+Please use https://github.com/newleaders/minitest-rails-shoulda

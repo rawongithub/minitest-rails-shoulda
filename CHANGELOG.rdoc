@@ -1,3 +1,0 @@
-=== 0.1.0 / 2012-08-06
-
-Updated integrations to keep up with MiniTest::Rails class name changes in 0.1.x series
